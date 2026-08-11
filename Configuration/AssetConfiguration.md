@@ -12,6 +12,34 @@ A biblioteca reúne elementos estruturais, marcadores e recursos semânticos uti
 
 ---
 
+## Pacote de origem dos recursos
+
+Os recursos tridimensionais utilizados no ambiente experimental são provenientes do **KayKit Dungeon Remastered Pack**, criado por **Kay Lousberg**.
+
+O pacote utilizado durante o desenvolvimento do projeto era identificado como *Dungeon Remastered Pack*. Posteriormente, o autor renomeou o conjunto para **KayKit - Dungeon Pack**, denominação utilizada atualmente em sua página oficial.
+
+Página oficial do pacote:
+
+[KayKit - Dungeon Pack — Kay Lousberg](https://kaylousberg.itch.io/kaykit-dungeon-pack)
+
+O conjunto foi desenvolvido especificamente para a construção modular de ambientes tridimensionais e reúne mais de 200 recursos estilizados relacionados a dungeons, incluindo elementos como:
+
+- pisos;
+- paredes;
+- portas;
+- escadas;
+- caixas e barris;
+- móveis;
+- armadilhas;
+- objetos decorativos;
+- outros elementos destinados à composição de interiores.
+
+A natureza modular do pacote permitiu utilizar os mesmos recursos visuais para representar estruturas produzidas por algoritmos de geração diferentes. Dessa forma, BSP, Cellular Automata, Drunkard's Walk, Grammar-Based Generation, Room Graph e WFC puderam transformar suas respectivas estruturas lógicas em ambientes tridimensionais utilizando uma base visual comum.
+
+Os nomes apresentados nas seções seguintes, como `floor_dirt_small_D`, `wall`, `stairs`, `bucket_pickaxes` e `Skeleton_Warrior`, correspondem aos prefabs selecionados no projeto experimental e não representam categorias criadas especificamente para esta investigação.
+
+---
+
 ## Biblioteca compartilhada
 
 | Configuração | Valor |
@@ -148,19 +176,25 @@ Esses valores foram mantidos constantes para que os seis algoritmos utilizassem 
 
 ---
 
-## Origem dos recursos
+## Licença e redistribuição dos recursos
 
-Os modelos tridimensionais utilizados na representação das dungeons pertencem ao conjunto de assets KayKit utilizado no projeto experimental.
+O KayKit Dungeon Pack é disponibilizado pelo autor sob a licença **Creative Commons Zero v1.0 Universal (CC0 1.0)**, permitindo seu uso em projetos pessoais e comerciais.
 
-Os arquivos originais desses assets não são redistribuídos neste repositório. Este repositório documenta apenas:
+A página oficial do pacote e suas condições de distribuição podem ser consultadas em:
 
-- os nomes dos prefabs utilizados;
-- sua função dentro do experimento;
-- as configurações necessárias para reproduzir sua utilização.
+[KayKit - Dungeon Pack — página oficial](https://kaylousberg.itch.io/kaykit-dungeon-pack)
 
-Os direitos e condições de uso dos recursos de terceiros permanecem vinculados às respectivas licenças de seus autores e distribuidores.
+Apesar dessa licença permissiva, os arquivos tridimensionais originais do pacote não são incluídos neste repositório. Para fins de reprodutibilidade, são documentados:
 
-Consequentemente, a licença deste repositório se aplica ao código e aos materiais originais disponibilizados pelo autor da investigação, não alterando a licença dos assets externos utilizados pelo projeto.
+- o pacote utilizado;
+- o endereço de sua fonte oficial;
+- os nomes dos prefabs empregados;
+- a função de cada recurso no experimento;
+- as configurações necessárias para sua utilização.
+
+Essa escolha mantém o repositório concentrado nos materiais produzidos para a investigação e evita duplicar a distribuição de recursos externos.
+
+A licença MIT deste repositório aplica-se aos códigos e materiais originais disponibilizados pelo autor da investigação. Os recursos do KayKit permanecem sujeitos às condições estabelecidas por seu próprio autor.
 
 ---
 
@@ -192,6 +226,34 @@ This document records the configuration of the 3D asset library used in the diss
 All six analyzed algorithms used the same `DungeonAssetLibrary`, ensuring that differences observed between generated dungeons were not caused by the use of different sets of 3D models.
 
 The library contains structural elements, markers, and semantic resources used for the visual representation of the generated dungeons.
+
+---
+
+## Source asset pack
+
+The 3D resources used in the experimental environment were obtained from the **KayKit Dungeon Remastered Pack**, created by **Kay Lousberg**.
+
+During the development of the project, the asset collection was identified as the *Dungeon Remastered Pack*. The author later renamed the collection to **KayKit - Dungeon Pack**, which is the name currently used on its official distribution page.
+
+Official asset page:
+
+[KayKit - Dungeon Pack — Kay Lousberg](https://kaylousberg.itch.io/kaykit-dungeon-pack)
+
+The collection was designed for modular construction of 3D environments and contains more than 200 stylized dungeon-related assets, including:
+
+- floors;
+- walls;
+- doors;
+- stairs;
+- crates and barrels;
+- furniture;
+- traps;
+- decorative props;
+- other resources intended for interior dungeon composition.
+
+The modular nature of the package made it possible to use the same visual resources to represent structures produced by different generation algorithms. BSP, Cellular Automata, Drunkard's Walk, Grammar-Based Generation, Room Graph, and WFC could therefore transform their respective logical structures into 3D environments using a common visual foundation.
+
+Names presented in the following sections, such as `floor_dirt_small_D`, `wall`, `stairs`, `bucket_pickaxes`, and `Skeleton_Warrior`, correspond to prefabs selected in the experimental project and are not categories created specifically for this research.
 
 ---
 
@@ -331,19 +393,25 @@ These values were kept constant so that all six algorithms used the same spatial
 
 ---
 
-## Asset origin
+## Asset licensing and redistribution
 
-The 3D models used to represent the dungeons belong to the KayKit asset collection used in the experimental project.
+The KayKit Dungeon Pack is distributed by its author under the **Creative Commons Zero v1.0 Universal (CC0 1.0)** license, allowing its use in both personal and commercial projects.
 
-The original third-party asset files are not redistributed in this repository. This repository documents only:
+The official package page and its distribution terms are available at:
 
+[KayKit - Dungeon Pack — official page](https://kaylousberg.itch.io/kaykit-dungeon-pack)
+
+Despite this permissive license, the original 3D asset files are not included in this repository. For reproducibility purposes, this repository documents:
+
+- the asset package used;
+- its official source;
 - the names of the prefabs used;
-- their role in the experiment;
-- the configuration required to reproduce their use.
+- the role of each resource in the experiment;
+- the configuration required for their use.
 
-The rights and terms of use of third-party resources remain subject to the licenses provided by their respective authors and distributors.
+This approach keeps the repository focused on the materials produced for the research while avoiding unnecessary redistribution of external resources.
 
-Consequently, the license of this repository applies to the original code and materials made available by the author of the research and does not modify the licenses of external assets used by the project.
+The MIT license of this repository applies to the original code and materials made available by the author of the research. KayKit resources remain subject to the terms established by their original author.
 
 ---
 
