@@ -89,16 +89,16 @@ Esta bateria contém as 30 execuções correspondentes às seeds de 2000 a 2029.
 
 A bateria utilizada para os resultados finais do Cellular Automata é identificada pelo timestamp:
 
-`20260503_002308`
+`20260814_035905`
 
 Arquivos:
 
-- `cellular_automata_parameter_report_20260503_002308.json`
-- `cellular_automata_parameters_by_run_20260503_002308.csv`
-- `cellular_automata_aggregate_20260503_002308.csv`
-- `cellular_automata_readable_report_20260503_002308.md`
+- `cellular_automata_parameter_report_20260814_035905.json`
+- `cellular_automata_parameters_by_run_20260814_035905.csv`
+- `cellular_automata_aggregate_20260814_035905.csv`
+- `cellular_automata_readable_report_20260814_035905.md`
 
-A pasta original de métricas continha baterias anteriores de Cellular Automata. A bateria acima foi selecionada porque corresponde aos valores utilizados na análise final da dissertação.
+Esta bateria contém as 30 execuções correspondentes às seeds de 2000 a 2029 e utiliza a configuração experimental multiandar documentada em `../Configuration/AlgorithmParameters.md`, com dois pavimentos e vizinhança vertical ativada.
 
 ---
 
@@ -235,7 +235,7 @@ A composição desses valores deve ser interpretada segundo o procedimento descr
 | Algoritmo | Bateria | Finalidade |
 |---|---|---|
 | BSP | `20260501_213318` | Bateria experimental final |
-| Cellular Automata | `20260503_002308` | Bateria experimental final |
+| Cellular Automata | 20260814_035905 | Bateria experimental final
 | Drunkard's Walk | `20260503_012255` | Bateria experimental final |
 | Grammar-Based Generation | `20260503_052720` | Bateria experimental final |
 | Room Graph | `20260502_190613` | Dados estruturais e lógicos |
@@ -452,16 +452,16 @@ This batch contains the 30 runs corresponding to seeds 2000 through 2029.
 
 The batch used for the final Cellular Automata results is identified by:
 
-`20260503_002308`
+`20260814_035905`
 
 Files:
 
-- `cellular_automata_parameter_report_20260503_002308.json`
-- `cellular_automata_parameters_by_run_20260503_002308.csv`
-- `cellular_automata_aggregate_20260503_002308.csv`
-- `cellular_automata_readable_report_20260503_002308.md`
+- `cellular_automata_parameter_report_20260814_035905.json`
+- `cellular_automata_parameters_by_run_20260814_035905.csv`
+- `cellular_automata_aggregate_20260814_035905.csv`
+- `cellular_automata_readable_report_20260814_035905.md`
 
-The original metrics directory contained earlier Cellular Automata batches. The batch listed above was selected because it corresponds to the values used in the final dissertation analysis.
+This batch contains the 30 runs corresponding to seeds 2000 through 2029 and uses the multi-floor experimental configuration documented in `../Configuration/AlgorithmParameters.md`, with two floors and vertical neighborhood rules enabled.
 
 ---
 
@@ -598,7 +598,7 @@ The composition of these values should be interpreted according to the procedure
 | Algorithm | Batch | Purpose |
 |---|---|---|
 | BSP | `20260501_213318` | Final experimental batch |
-| Cellular Automata | `20260503_002308` | Final experimental batch |
+| Cellular Automata | 20260814_035905 | Final experimental batch
 | Drunkard's Walk | `20260503_012255` | Final experimental batch |
 | Grammar-Based Generation | `20260503_052720` | Final experimental batch |
 | Room Graph | `20260502_190613` | Structural and logical data |
