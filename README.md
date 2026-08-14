@@ -123,7 +123,7 @@ Divide recursivamente o espaço em regiões, posiciona salas nas partições res
 
 ### Cellular Automata
 
-Utiliza regras locais de vizinhança aplicadas iterativamente a uma grade para produzir estruturas orgânicas semelhantes a cavernas. A configuração analisada experimentalmente utiliza um único pavimento.
+Utiliza regras locais de vizinhança aplicadas iterativamente a uma grade para produzir estruturas orgânicas semelhantes a cavernas. A configuração experimental utiliza dois pavimentos, com vizinhança vertical ativada e conexões verticais inferidas entre regiões abertas alinhadas nas diferentes camadas.
 
 ### Drunkard's Walk
 
@@ -271,7 +271,7 @@ As baterias selecionadas são:
 | Algoritmo | Bateria | Finalidade |
 |---|---|---|
 | BSP | `20260501_213318` | Bateria experimental final |
-| Cellular Automata | `20260503_002308` | Bateria experimental final |
+| Cellular Automata | `20260814_035905` | Bateria experimental final |
 | Drunkard's Walk | `20260503_012255` | Bateria experimental final |
 | Grammar-Based Generation | `20260503_052720` | Bateria experimental final |
 | Room Graph | `20260502_190613` | Dados estruturais e lógicos |
@@ -509,7 +509,7 @@ Recursively divides the available space into regions, places rooms inside the re
 
 ### Cellular Automata
 
-Uses local neighborhood rules iteratively applied to a grid to produce organic cave-like structures. The experimentally analyzed configuration uses a single floor.
+Uses local neighborhood rules iteratively applied to a grid to produce organic cave-like structures. The experimental configuration uses two floors, with vertical neighborhood rules enabled and vertical connections inferred between aligned open regions across the different layers.
 
 ### Drunkard's Walk
 
@@ -657,7 +657,7 @@ The selected batches are:
 | Algorithm | Batch | Purpose |
 |---|---|---|
 | BSP | `20260501_213318` | Final experimental batch |
-| Cellular Automata | `20260503_002308` | Final experimental batch |
+| Cellular Automata | `20260814_035905` | Final experimental batch |
 | Drunkard's Walk | `20260503_012255` | Final experimental batch |
 | Grammar-Based Generation | `20260503_052720` | Final experimental batch |
 | Room Graph | `20260502_190613` | Structural and logical data |
