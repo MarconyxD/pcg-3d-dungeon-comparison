@@ -128,7 +128,7 @@ Entre suas funções estão:
 - instanciação tridimensional;
 - execução das baterias experimentais.
 
-A configuração final utilizada no estudo foi de pavimento único.
+A configuração experimental utilizada no estudo empregou dois pavimentos, vizinhança vertical e inferência de conectores verticais entre regiões abertas alinhadas.
 
 ---
 
@@ -668,7 +668,7 @@ Its functions include:
 - 3D instantiation;
 - experimental batch execution.
 
-The final experimental configuration used a single floor.
+The experimental configuration used two floors, vertical neighborhood rules, and inferred vertical connectors between aligned open regions.
 
 ---
 
