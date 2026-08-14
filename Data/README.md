@@ -235,7 +235,7 @@ A composição desses valores deve ser interpretada segundo o procedimento descr
 | Algoritmo | Bateria | Finalidade |
 |---|---|---|
 | BSP | `20260501_213318` | Bateria experimental final |
-| Cellular Automata | 20260814_035905 | Bateria experimental final
+| Cellular Automata | `20260814_035905` | Bateria experimental final
 | Drunkard's Walk | `20260503_012255` | Bateria experimental final |
 | Grammar-Based Generation | `20260503_052720` | Bateria experimental final |
 | Room Graph | `20260502_190613` | Dados estruturais e lógicos |
@@ -598,7 +598,7 @@ The composition of these values should be interpreted according to the procedure
 | Algorithm | Batch | Purpose |
 |---|---|---|
 | BSP | `20260501_213318` | Final experimental batch |
-| Cellular Automata | 20260814_035905 | Final experimental batch
+| Cellular Automata | `20260814_035905` | Final experimental batch
 | Drunkard's Walk | `20260503_012255` | Final experimental batch |
 | Grammar-Based Generation | `20260503_052720` | Final experimental batch |
 | Room Graph | `20260502_190613` | Structural and logical data |
