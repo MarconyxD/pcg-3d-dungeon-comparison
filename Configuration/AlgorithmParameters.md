@@ -70,20 +70,20 @@ A implementação do BSP divide recursivamente o espaço disponível, cria salas
 ### Verticalidade
 
 | Parâmetro | Valor |
-|---|---:|
-| Cellular Automata multiandar | Desativado |
-| Parâmetro de número de pavimentos | 2 |
-| Inclusão de vizinhos verticais nas regras | Ativada, mas inativa devido à geração multiandar estar desativada |
-| Máximo de conectores verticais por par de pavimentos | 2, mas inativo devido à geração multiandar estar desativada |
+|---|---|
+| Cellular Automata multiandar | Ativado |
+| Número de pavimentos | 2 |
+| Inclusão de vizinhos verticais nas regras | Ativada |
+| Máximo de conectores verticais por par de pavimentos | 2 |
 
 ### Parâmetros experimentais adicionais
 
 | Parâmetro | Valor |
-|---|---:|
+|---|---|
 | Probabilidade de decoração das regiões | 0,55 |
 | Área mínima para arena de chefe | 120 células |
 
-O experimento com Cellular Automata foi, portanto, realizado em uma configuração de pavimento único. Os parâmetros relacionados à verticalidade permaneceram disponíveis no componente, mas não participaram da geração experimental analisada.
+A implementação experimental do Cellular Automata utilizou dois pavimentos e incluiu vizinhos verticais nas regras celulares. Após a geração, conexões verticais foram inferidas a partir do alinhamento de regiões abertas entre os pavimentos, respeitando o limite máximo de dois conectores verticais por par de pavimentos.
 
 ---
 
@@ -367,20 +367,20 @@ The BSP implementation recursively partitions the available space, creates rooms
 ### Verticality
 
 | Parameter | Value |
-|---|---:|
-| Multi-floor Cellular Automata | Disabled |
-| Floor count parameter | 2 |
-| Include vertical neighbors in rule | Enabled, but inactive because multi-floor generation was disabled |
-| Maximum vertical connectors per floor pair | 2, but inactive because multi-floor generation was disabled |
+|---|---|
+| Multi-floor Cellular Automata | Enabled |
+| Floor count | 2 |
+| Include vertical neighbors in rule | Enabled |
+| Maximum vertical connectors per floor pair | 2 |
 
 ### Additional experimental parameters
 
 | Parameter | Value |
-|---|---:|
+|---|---|
 | Prop room chance | 0.55 |
 | Boss arena minimum area | 120 cells |
 
-The Cellular Automata experiment was therefore performed using a single-floor configuration. Vertical parameters remained available in the component but did not participate in the analyzed experimental generation.
+The experimental Cellular Automata implementation used two floors and included vertical neighbors in the cellular rules. After generation, vertical connections were inferred from aligned open regions between floors, respecting a maximum of two vertical connectors per floor pair.
 
 ---
 
